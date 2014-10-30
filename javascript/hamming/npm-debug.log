@@ -1,0 +1,213 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jasmine-node',
+1 verbose cli   '1.14.2',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'jasmine-node', null ]
+6 verbose cache add name=undefined spec="jasmine-node" args=["jasmine-node",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'jasmine-node',
+7 verbose parsed url   path: 'jasmine-node',
+7 verbose parsed url   href: 'jasmine-node' }
+8 verbose cache add [ '1.14.2', null ]
+9 verbose cache add name=undefined spec="1.14.2" args=["1.14.2",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '1.14.2',
+10 verbose parsed url   path: '1.14.2',
+10 verbose parsed url   href: '1.14.2' }
+11 silly lockFile bba04ce4-jasmine-node jasmine-node
+12 verbose lock jasmine-node C:\Users\Schann\AppData\Roaming\npm-cache\bba04ce4-jasmine-node.lock
+13 silly lockFile bdd256ef-1-14-2 1.14.2
+14 verbose lock 1.14.2 C:\Users\Schann\AppData\Roaming\npm-cache\bdd256ef-1-14-2.lock
+15 silly lockFile bdd256ef-1-14-2 1.14.2
+16 silly lockFile bdd256ef-1-14-2 1.14.2
+17 silly lockFile bba04ce4-jasmine-node jasmine-node
+18 silly lockFile bba04ce4-jasmine-node jasmine-node
+19 verbose addNamed [ '1.14.2', '' ]
+20 verbose addNamed [ null, '*' ]
+21 silly lockFile 8fef8fe0-1-14-2 1.14.2@
+22 verbose lock 1.14.2@ C:\Users\Schann\AppData\Roaming\npm-cache\8fef8fe0-1-14-2.lock
+23 verbose addNamed [ 'jasmine-node', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile b74de4f8-jasmine-node jasmine-node@
+26 verbose lock jasmine-node@ C:\Users\Schann\AppData\Roaming\npm-cache\b74de4f8-jasmine-node.lock
+27 silly addNameRange { name: '1.14.2', range: '*', hasData: false }
+28 silly addNameRange { name: 'jasmine-node', range: '*', hasData: false }
+29 verbose request where is /1.14.2
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 7c1f742e55029af2
+32 verbose url raw /1.14.2
+33 verbose url resolving [ 'https://registry.npmjs.org/', './1.14.2' ]
+34 verbose url resolved https://registry.npmjs.org/1.14.2
+35 verbose request where is https://registry.npmjs.org/1.14.2
+36 info trying registry request attempt 1 at 09:14:11
+37 http GET https://registry.npmjs.org/1.14.2
+38 verbose request where is /jasmine-node
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /jasmine-node
+41 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine-node' ]
+42 verbose url resolved https://registry.npmjs.org/jasmine-node
+43 verbose request where is https://registry.npmjs.org/jasmine-node
+44 info trying registry request attempt 1 at 09:14:11
+45 verbose etag "2J7W90BYO2DLN7YAAMBP95XYG"
+46 http GET https://registry.npmjs.org/jasmine-node
+47 http 304 https://registry.npmjs.org/jasmine-node
+48 silly registry.get cb [ 304,
+48 silly registry.get   { date: 'Tue, 28 Oct 2014 14:14:01 GMT',
+48 silly registry.get     server: 'Apache',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     'last-modified': 'Tue, 28 Oct 2014 14:14:01 GMT',
+48 silly registry.get     'cache-control': 'max-age=60',
+48 silly registry.get     etag: '"2J7W90BYO2DLN7YAAMBP95XYG"',
+48 silly registry.get     age: '57',
+48 silly registry.get     'x-served-by': 'cache-dfw1830-DFW',
+48 silly registry.get     'x-cache': 'HIT',
+48 silly registry.get     'x-cache-hits': '1',
+48 silly registry.get     'x-timer': 'S1414505641.673776,VS0,VE12',
+48 silly registry.get     vary: 'Accept',
+48 silly registry.get     'content-length': '0',
+48 silly registry.get     'keep-alive': 'timeout=10, max=50',
+48 silly registry.get     connection: 'Keep-Alive' } ]
+49 verbose etag https://registry.npmjs.org/jasmine-node from cache
+50 silly addNameRange number 2 { name: 'jasmine-node', range: '*', hasData: true }
+51 silly addNameRange versions [ 'jasmine-node',
+51 silly addNameRange   [ '1.0.1',
+51 silly addNameRange     '1.0.2',
+51 silly addNameRange     '1.0.3',
+51 silly addNameRange     '1.0.4',
+51 silly addNameRange     '1.0.5',
+51 silly addNameRange     '1.0.6',
+51 silly addNameRange     '1.0.7',
+51 silly addNameRange     '1.0.8',
+51 silly addNameRange     '1.0.9',
+51 silly addNameRange     '1.0.10',
+51 silly addNameRange     '1.0.11',
+51 silly addNameRange     '1.0.12',
+51 silly addNameRange     '1.0.13',
+51 silly addNameRange     '1.0.15',
+51 silly addNameRange     '1.0.16',
+51 silly addNameRange     '1.0.17',
+51 silly addNameRange     '1.0.18',
+51 silly addNameRange     '1.0.19',
+51 silly addNameRange     '1.0.20',
+51 silly addNameRange     '1.0.21',
+51 silly addNameRange     '1.0.22',
+51 silly addNameRange     '1.0.23',
+51 silly addNameRange     '1.0.24',
+51 silly addNameRange     '1.0.25',
+51 silly addNameRange     '1.0.26',
+51 silly addNameRange     '1.0.27',
+51 silly addNameRange     '1.0.28',
+51 silly addNameRange     '1.1.0',
+51 silly addNameRange     '1.2.0',
+51 silly addNameRange     '1.2.1',
+51 silly addNameRange     '1.2.2',
+51 silly addNameRange     '1.2.3',
+51 silly addNameRange     '1.3.0',
+51 silly addNameRange     '1.3.1',
+51 silly addNameRange     '1.4.0',
+51 silly addNameRange     '1.5.0',
+51 silly addNameRange     '1.6.0',
+51 silly addNameRange     '1.7.0',
+51 silly addNameRange     '1.7.1',
+51 silly addNameRange     '1.8.0',
+51 silly addNameRange     '1.8.1',
+51 silly addNameRange     '1.9.0',
+51 silly addNameRange     '1.9.1',
+51 silly addNameRange     '1.10.0',
+51 silly addNameRange     '1.10.1',
+51 silly addNameRange     '1.10.2',
+51 silly addNameRange     '1.11.0',
+51 silly addNameRange     '1.12.0',
+51 silly addNameRange     '1.12.1',
+51 silly addNameRange     '1.13.0',
+51 silly addNameRange     '1.13.1',
+51 silly addNameRange     '1.14.0',
+51 silly addNameRange     '1.14.1',
+51 silly addNameRange     '2.0.0',
+51 silly addNameRange     '1.14.2',
+51 silly addNameRange     '2.0.0-beta1',
+51 silly addNameRange     '2.0.0-beta2',
+51 silly addNameRange     '2.0.0-beta3',
+51 silly addNameRange     '1.14.3',
+51 silly addNameRange     '2.0.0-beta4',
+51 silly addNameRange     '1.14.4',
+51 silly addNameRange     '1.14.5',
+51 silly addNameRange     '1.0.0-rc1',
+51 silly addNameRange     '1.0.0-rc2',
+51 silly addNameRange     '1.0.0-rc3' ] ]
+52 verbose addNamed [ 'jasmine-node', '1.14.5' ]
+53 verbose addNamed [ '1.14.5', '1.14.5' ]
+54 silly lockFile 3c9ba918-jasmine-node-1-14-5 jasmine-node@1.14.5
+55 verbose lock jasmine-node@1.14.5 C:\Users\Schann\AppData\Roaming\npm-cache\3c9ba918-jasmine-node-1-14-5.lock
+56 silly lockFile 3c9ba918-jasmine-node-1-14-5 jasmine-node@1.14.5
+57 silly lockFile 3c9ba918-jasmine-node-1-14-5 jasmine-node@1.14.5
+58 silly lockFile b74de4f8-jasmine-node jasmine-node@
+59 silly lockFile b74de4f8-jasmine-node jasmine-node@
+60 http 404 https://registry.npmjs.org/1.14.2
+61 verbose headers { date: 'Tue, 28 Oct 2014 14:14:01 GMT',
+61 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+61 verbose headers   'content-type': 'application/json',
+61 verbose headers   'cache-control': 'max-age=0',
+61 verbose headers   'content-length': '52',
+61 verbose headers   'accept-ranges': 'bytes',
+61 verbose headers   via: '1.1 varnish',
+61 verbose headers   age: '0',
+61 verbose headers   'x-served-by': 'cache-dfw1831-DFW',
+61 verbose headers   'x-cache': 'MISS',
+61 verbose headers   'x-cache-hits': '0',
+61 verbose headers   'x-timer': 'S1414505641.668462,VS0,VE65',
+61 verbose headers   'keep-alive': 'timeout=10, max=50',
+61 verbose headers   connection: 'Keep-Alive' }
+62 silly registry.get cb [ 404,
+62 silly registry.get   { date: 'Tue, 28 Oct 2014 14:14:01 GMT',
+62 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+62 silly registry.get     'content-type': 'application/json',
+62 silly registry.get     'cache-control': 'max-age=0',
+62 silly registry.get     'content-length': '52',
+62 silly registry.get     'accept-ranges': 'bytes',
+62 silly registry.get     via: '1.1 varnish',
+62 silly registry.get     age: '0',
+62 silly registry.get     'x-served-by': 'cache-dfw1831-DFW',
+62 silly registry.get     'x-cache': 'MISS',
+62 silly registry.get     'x-cache-hits': '0',
+62 silly registry.get     'x-timer': 'S1414505641.668462,VS0,VE65',
+62 silly registry.get     'keep-alive': 'timeout=10, max=50',
+62 silly registry.get     connection: 'Keep-Alive' } ]
+63 silly lockFile 8fef8fe0-1-14-2 1.14.2@
+64 silly lockFile 8fef8fe0-1-14-2 1.14.2@
+65 error 404 404 Not Found: 1.14.2
+65 error 404
+65 error 404 '1.14.2' is not in the npm registry.
+65 error 404 You should bug the author to publish it
+65 error 404
+65 error 404 Note that you can also install from a
+65 error 404 tarball, folder, or http url, or git url.
+66 error System Windows_NT 6.1.7601
+67 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "jasmine-node" "1.14.2" "-g"
+68 error cwd C:\Users\Schann\exercism\javascript\hamming
+69 error node -v v0.10.32
+70 error npm -v 1.4.28
+71 error code E404
+72 verbose exit [ 1, true ]
