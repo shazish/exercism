@@ -1,4 +1,8 @@
 function Robot() {
+
+	// for my reference -- abc = function() vs. function abc()
+	// http://www.jefflembeck.com/javascript-function-name-param-vs-var-name-equals-function-param
+	
 	var name;
 	charlist = "ABCDEFGHIJKLMNOPQRSTUVWXTZ";	
 	function chargen(){
