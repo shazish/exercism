@@ -61,7 +61,7 @@ function LinkedList() {
 				counter--;
 				return;	
 			}
-			else
+			else if (typeof trav.next != "undefined") 
 				trav = trav.next;			
 		};
 	}
